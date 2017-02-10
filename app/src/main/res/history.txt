@@ -1,0 +1,43 @@
+0.1
+
+First version released
+
+0.2
+
+Crash situation repaired that happened when mp3 file with album art was found
+
+1.0
+
+Crash situation repaired that happened when audio file was removed or renamed while the Player is active. Now the file will behave like an empty one.
+
+Status bar colour of album list view and track list view no longer blue in case the gray theme was chosen
+
+Help Text Dialogue
+
+Allow screen rotation
+
+1.01
+
+Adapted to permission mechanism of Android 6
+
+1.02
+
+In order to belong to the same opus, both grouping and composer tag must match.
+
+Playing continues when device is rotated and media controls remain visible, if configured.
+
+
+1.03
+
+In case the device is rotated while playback is paused, the media controller will now correctly show the play symbol to resume playback.
+
+In case an album is erroneously split in multiple ones with same album title the albums are treated separately, following the Android bug.
+
+
+TODO:
+
+Find album composer. In case he or she is not preceded the album name, precede it there and omit it in the tracks.
+
+Create colour chooser for texts.
+
+In case the whole album consists of single-title-opera: auto play album, not opus.

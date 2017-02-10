@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="array_autoplayMode">
+        <item name="1">nach jedem Titel anhalten</item>
+        <item name="2">am Ende des Werks anhalten</item>
+        <item name="3">am Albumende anhalten</item>
+    </string-array>
+
+    <string-array name="array_autoplayMode_values">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+    </string-array>
+
+    <string-array name="array_conductorMode">
+        <item name="1">nach dem Interpreten</item>
+        <item name="2">in eigener Zeile</item>
+        <item name="0">weglassen</item>
+    </string-array>
+
+    <string-array name="array_conductorMode_values">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="0">0</item>
+    </string-array>
+
+    <string-array name="array_genderismNonsenseMode">
+        <item name="0">kurz (generisches Maskulinum)</item>
+        <item name="1">abgekürzt (abgek.)</item>
+        <item name="2">/-in[en]</item>
+        <item name="3">f und m</item>
+        <item name="4">m und f</item>
+        <item name="5">BinnenIh</item>
+        <item name="6">Unterstrich</item>
+        <item name="7">x</item>
+        <item name="8">Femininum</item>
+    </string-array>
+
+    <string-array name="array_genderismNonsenseMode_values">
+        <item name="0">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+        <item name="4">4</item>
+        <item name="5">5</item>
+        <item name="6">6</item>
+        <item name="7">7</item>
+        <item name="8">8</item>
+    </string-array>
+
+    <string-array name="array_chooseOtherTrackMode">
+        <item name="0">ausgewähltes Stück spielen</item>
+        <item name="1">Pause</item>
+        <item name="2">Stop</item>
+    </string-array>
+
+    <string-array name="array_chooseOtherTrackMode_values">
+        <item name="0">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+
+    <string-array name="array_behaviourOfBackKey">
+        <item name="0">Steuerung ggf. einblenden</item>
+        <item name="1">Pause</item>
+        <item name="2">Stop</item>
+    </string-array>
+
+    <string-array name="array_behaviourOfBackKey_values">
+        <item name="0">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+
+    <string-array name="array_autoHideController">
+        <item name="0">niemals</item>
+        <item name="3">nach 3s</item>
+        <item name="5">nach 5s</item>
+        <item name="10">nach 10s</item>
+        <item name="2">nach 2,54s</item>
+    </string-array>
+
+    <string-array name="array_autoHideController_values">
+        <item name="0">0</item>
+        <item name="3">3</item>
+        <item name="5">5</item>
+        <item name="10">10</item>
+        <item name="2">2</item>
+    </string-array>
+
+    <string-array name="array_themes">
+        <item name="0">Blau (Standard)</item>
+        <item name="1">Grautöne (experimentell)</item>
+    </string-array>
+
+    <string-array name="array_themes_values">
+        <item name="0">0</item>
+        <item name="1">1</item>
+    </string-array>
+
+</resources>

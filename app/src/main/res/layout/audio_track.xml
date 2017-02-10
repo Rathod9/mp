@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:onClick="onTrackPicked"
+	android:orientation="vertical"
+	android:padding="5dp" >
+
+	<TextView
+		android:id="@+id/track_composer_and_work"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textColor="#ffff50"
+		android:textSize="18sp"
+		android:textStyle="bold" />
+
+	<TextView
+		android:id="@+id/track_title"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textColor="#FFFFFF99"
+		android:textSize="16sp" />
+
+	<TextView
+		android:id="@+id/track_interpreter"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textColor="#a0a0a0"
+		android:textSize="12sp" />
+
+</LinearLayout>

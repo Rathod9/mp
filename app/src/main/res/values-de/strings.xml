@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Unpopular Music Player Free</string>
+    <string name="locale_prefix">de</string>
+
+    <string name="str_app_exit">Programmende</string>
+    <string name="str_unknown_composer">unbekannter Komponist</string>
+    <string name="str_album">Album</string>
+    <string name="str_albums">Alben</string>
+    <string name="action_about">Über…</string>
+    <string name="action_settings">Einstellungen…</string>
+    <string name="action_help">Hilfe…</string>
+    <string name="action_program_exit">Programmende</string>
+
+    <string name="header_settings_title_behaviour">Wiedergabemodi konfigurieren</string>
+    <string name="header_settings_title_interface">Bedienoberfläche konfigurieren</string>
+    <string name="header_settings_title_scale">Bedienoberfläche skalieren</string>
+    <string name="header_settings_summary_behaviour">Das Verhalten der App während der Wiedergabe</string>
+    <string name="header_settings_summary_view">Informationen anzeigen oder verstecken</string>
+    <string name="header_settings_summary_scale">Die Bedienoberfläche an die Bildschirmgröße anpassen</string>
+
+    <string name="pref_category_playing_modes">WIEDERGABE</string>
+    <string name="pref_autoplayMode_title">Nächstes Stück</string>
+    <string name="pref_autoplayMode_summary">Wo soll die Wiedergabe enden?</string>
+    <string name="pref_category_scale_ui">OBERFLÄCHE SKALIEREN</string>
+    <string name="pref_category_hide_or_show">ANZUZEIGENDE INFORMATIONEN AUSWÄHLEN</string>
+    <string name="pref_category_colours">FARBGEBUNG USW.</string>
+    <string name="pref_genderism_nonsense_title">PC</string>
+    <string name="pref_genderism_nonsense_summary">Genderismus konfigurieren</string>
+    <string name="pref_show_track_number_title">Titelnummer</string>
+    <string name="pref_show_track_number_summary">CD- und Titelnummer vor dem Titel anzeigen</string>
+    <string name="pref_show_album_duration_title">Albumlänge (Dauer)</string>
+    <string name="pref_show_album_duration_summary">Gesamtlänge des Albums, d.h. Summe aller Titel, anzeigen (experimentell)</string>
+    <string name="pref_show_conductor_title">Dirigenten</string>
+    <string name="pref_show_conductor_summary">Methode zur Auswertung der Dirigenten-Informationen auswählen</string>
+    <string name="pref_show_subtitle_title">Untertitel</string>
+    <string name="pref_show_subtitle_summary">Hier könnten weniger wichtige Amerkungen zum Stücks stehen.</string>
+    <string name="pref_album_header_size_title">Größe der Album-Titelzeile</string>
+    <string name="pref_album_header_size_summary">Größe der Titelzeile in der Album-Ansicht</string>
+    <string name="pref_album_art_size_title">Größe des Album-Bildes</string>
+    <string name="pref_album_art_size_summary">Größe des Album-Bildes in der Albumlisten-Ansicht</string>
+    <string name="pref_chooseOtherTrackMode_title">Anderes Stück auswählen</string>
+    <string name="pref_chooseOtherTrackMode_summary">Verhalten bei Auswahl eines anderen Stücks während der Wiedergabe</string>
+    <string name="pref_behaviourOfBackKey_title">ZURÜCK-Taste</string>
+    <string name="pref_behaviourOfBackKey_summary">Was soll passieren, wenn während der Wiedergabe ZURÜCK betätigt wird?</string>
+    <string name="pref_autoHideController_title">Steuerung ausblenden</string>
+    <string name="pref_autoHideController_summary">Steuerung eingeblendet lassen oder automatisch ausblenden</string>
+    <string name="pref_theme_title">Farbthema auswählen</string>
+    <string name="pref_theme_summary">Ändert Farbthema (experimentell)</string>
+    <string name="str_conductor_gen">"Dirigent"</string>
+    <string name="str_conductor_abbrev">"Dir."</string>
+    <string name="str_conductor_ess">"Dirigent/-in"</string>
+    <string name="str_conductor_fm">"Dirigentin oder Dirigent"</string>
+    <string name="str_conductor_mf">"Dirigent oder Dirigentin"</string>
+    <string name="str_conductor_capI">"DirigentInnenAußen"</string>
+    <string name="str_conductor_underscore">"Dirigent_in"</string>
+    <string name="str_conductor_x">"Dirigentx"</string>
+    <string name="str_conductor_f">"Dirigentin"</string>
+    <string name="str_track">Titel</string>
+    <string name="str_tracks">Titel</string>
+    <string name="str_app_description">Eine Äpp, speziell entwickelt fürs Abspielen „unpopulärer“ Musik.</string>
+    <string name="str_author">"Autor: "</string>
+</resources>

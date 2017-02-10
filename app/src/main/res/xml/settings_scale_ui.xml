@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_category_scale_ui">
+        <EditTextPreference
+            android:key="prefSizeOfAlbumHeader"
+            android:title="@string/pref_album_header_size_title"
+            android:summary="@string/pref_album_header_size_summary"
+            android:defaultValue="120"
+            android:inputType="number"
+            android:maxLength="3" >
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:key="prefSizeOfAlbumArtInAlbumList"
+            android:title="@string/pref_album_art_size_title"
+            android:summary="@string/pref_album_art_size_summary"
+            android:defaultValue="80"
+            android:inputType="number"
+            android:maxLength="3" >
+        </EditTextPreference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<preference-headers
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header
+        android:fragment="de.kromke.andreas.unpopmusicplayerfree.UserSettingsActivity$MyPreferenceFragmentBehaviour"
+        android:title="@string/header_settings_title_behaviour"
+        android:summary="@string/header_settings_summary_behaviour" />
+
+    <header
+        android:fragment="de.kromke.andreas.unpopmusicplayerfree.UserSettingsActivity$MyPreferenceFragmentView"
+        android:title="@string/header_settings_title_interface"
+        android:summary="@string/header_settings_summary_view" />
+
+    <header
+        android:fragment="de.kromke.andreas.unpopmusicplayerfree.UserSettingsActivity$MyPreferenceFragmentScaleUi"
+        android:title="@string/header_settings_title_scale"
+        android:summary="@string/header_settings_summary_scale" />
+
+</preference-headers>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="gray_colorPrimaryDark">#FF202020</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <!-- Album List View (BLUE) -->
+    <color name="album_list_header_background">#1565c0</color>
+    <color name="album_list_background_normal">#ff1e88e5</color>
+    <color name="album_list_background_selected">#ff000090</color>
+
+    <!-- Album List View (GRAY) -->
+    <color name="gray_album_list_header_background">#ff606060</color>
+    <color name="gray_album_list_background_normal">#ff808080</color>
+    <color name="gray_album_list_background_selected">#ff505050</color>
+
+    <!-- Track List View -->
+    <color name="track_list_header_background">#ff1e88e5</color>
+    <color name="track_list_background_normal">#ff0000c8</color>
+    <color name="track_list_background_selected">#ff000090</color>
+
+    <!-- Track List View (GRAY) -->
+    <color name="gray_track_list_header_background">#ff606060</color>
+    <color name="gray_track_list_background_normal">#ff808080</color>
+    <color name="gray_track_list_background_selected">#ff505050</color>
+</resources>

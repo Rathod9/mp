@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_category_playing_modes" >
+
+        <ListPreference
+            android:key="prefAutoplayMode"
+            android:title="@string/pref_autoplayMode_title"
+            android:entries="@array/array_autoplayMode"
+            android:summary="@string/pref_autoplayMode_summary"
+            android:defaultValue="3"
+            android:entryValues="@array/array_autoplayMode_values" >
+        </ListPreference>
+
+        <ListPreference
+            android:key="prefChooseOtherTrack"
+            android:title="@string/pref_chooseOtherTrackMode_title"
+            android:entries="@array/array_chooseOtherTrackMode"
+            android:summary="@string/pref_chooseOtherTrackMode_summary"
+            android:defaultValue="0"
+            android:entryValues="@array/array_chooseOtherTrackMode_values" >
+        </ListPreference>
+
+        <ListPreference
+            android:key="prefBehaviourOfBackKey"
+            android:title="@string/pref_behaviourOfBackKey_title"
+            android:entries="@array/array_behaviourOfBackKey"
+            android:summary="@string/pref_behaviourOfBackKey_summary"
+            android:defaultValue="0"
+            android:entryValues="@array/array_behaviourOfBackKey_values" >
+        </ListPreference>
+
+        <ListPreference
+            android:key="prefAutoHideController"
+            android:title="@string/pref_autoHideController_title"
+            android:entries="@array/array_autoHideController"
+            android:summary="@string/pref_autoHideController_summary"
+            android:defaultValue="0"
+            android:entryValues="@array/array_autoHideController_values" >
+        </ListPreference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

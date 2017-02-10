@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Unpopular Music Player Free</string>
+    <string name="locale_prefix">en</string>
+
+    <string name="str_app_exit">End</string>
+    <string name="str_unknown_composer">unknown composer</string>
+    <string name="str_album">album</string>
+    <string name="str_albums">albums</string>
+    <string name="action_about">About…</string>
+    <string name="action_settings">Preferences…</string>
+    <string name="action_help">Help…</string>
+    <string name="action_program_exit">Exit Application</string>
+<!--
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string> -->
+
+    <string name="header_settings_title_behaviour">Behaviour settings</string>
+    <string name="header_settings_title_interface">User interface settings</string>
+    <string name="header_settings_title_scale">Scale user interface</string>
+    <string name="header_settings_summary_behaviour">Various settings to change the behaviour of the App</string>
+    <string name="header_settings_summary_view">Show or hide audio file meta information</string>
+    <string name="header_settings_summary_scale">Adapt the user interface to screen size</string>
+
+    <string name="pref_category_playing_modes">PLAYING MODES</string>
+    <string name="pref_autoplayMode_title">Autoplay mode</string>
+    <string name="pref_autoplayMode_summary">Determine when to stop playing</string>
+    <string name="pref_category_scale_ui">SCALING OF UI</string>
+
+    <string name="pref_genderism_nonsense_title">PC mode</string>
+    <string name="pref_genderism_nonsense_summary">Configure genderism mode</string>
+
+    <string name="pref_category_hide_or_show">INFORMATION TO BE SHOWN</string>
+    <string name="pref_category_colours">THEMES, COLOURS, ETC.</string>
+    <string name="pref_show_track_number_title">Show track number</string>
+    <string name="pref_show_track_number_summary">Precede title with CD and track number</string>
+    <string name="pref_show_album_duration_title">Show album duration</string>
+    <string name="pref_show_album_duration_summary">Album duration will be shown in album list (experimental)</string>
+    <string name="pref_show_conductor_title">Show conductor</string>
+    <string name="pref_show_conductor_summary">Choose method to handle conductor information</string>
+    <string name="pref_show_subtitle_title">Show subtitle</string>
+    <string name="pref_show_subtitle_summary">Choose method to handle subtitle information</string>
+    <string name="pref_album_header_size_title">Album header size</string>
+    <string name="pref_album_header_size_summary">Height of the title bar showing album art and information</string>
+    <string name="pref_album_art_size_title">Album art size</string>
+    <string name="pref_album_art_size_summary">Height of the album art shown in the album list</string>
+    <string name="pref_chooseOtherTrackMode_title">Choosing other track</string>
+    <string name="pref_chooseOtherTrackMode_summary">Behaviour when choosing a track during play</string>
+    <string name="pref_behaviourOfBackKey_title">Behaviour of BACK key</string>
+    <string name="pref_behaviourOfBackKey_summary">Behaviour when BACK key is pressed while playing</string>
+    <string name="pref_autoHideController_title">Hide controller</string>
+    <string name="pref_autoHideController_summary">Hide or not hide the controller</string>
+    <string name="pref_theme_title">Select theme</string>
+    <string name="pref_theme_summary">Change colour set (experimental)</string>
+    <string name="str_conductor_gen">"Conductor"</string>
+    <string name="str_conductor_abbrev">"Cond."</string>
+    <string name="str_conductor_ess">"Conduct/or/ess"</string>
+    <string name="str_conductor_fm">"Conductress or Conductor"</string>
+    <string name="str_conductor_mf">"Conductor or Conductress"</string>
+    <string name="str_conductor_capI">"ConductOrEss"</string>
+    <string name="str_conductor_underscore">"Conduct_or_ess"</string>
+    <string name="str_conductor_x">"Conductx"</string>
+    <string name="str_conductor_f">"Conductress"</string>
+    <string name="str_track">track</string>
+    <string name="str_tracks">tracks</string>
+    <string name="str_app_description">An application especially designed for playing \"unpopular\" music.</string>
+    <string name="str_author">"Author: "</string>
+</resources>

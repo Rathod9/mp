@@ -1,0 +1,95 @@
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/track_list_background_normal"
+    android:onClick="onSpacePicked"
+    tools:context=".TracksOfAlbumActivity" >
+
+    <!-- track list -->
+
+    <RelativeLayout
+        android:id="@+id/tracks_album_header"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:elevation="10dp">
+
+        <ImageView
+            android:id="@+id/tracks_album_image"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="album_image"
+            android:background="@color/track_list_header_background"
+            android:src="@drawable/no_album_art"
+            android:clickable="true"
+            android:onClick="onAlbumImageClicked" />
+
+        <TextView
+            android:id="@+id/tracks_album_title"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="Bach:\nBlablakonzerte mit Zeilenumbruch und ganz langem Text"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFFFF"
+            android:layout_toEndOf="@+id/tracks_album_image"
+            android:background="@color/track_list_header_background"
+            android:padding="2dp"
+            android:scrollbars = "vertical"
+            android:layout_alignParentBottom="true"/>
+<!--
+        <TextView
+            android:id="@+id/tracks_album_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="(999 tracks)"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/tracks_album_image"
+            android:textSize="12sp"
+            android:textColor="#c8c8c8"
+            android:layout_below="@+id/tracks_album_title"
+            android:background="@color/track_list_header_background"
+            android:padding="2dp"/>
+-->
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/tracks_album_divider_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#000000" />
+
+    <de.kromke.andreas.unpopmusicplayerfree.MyListView
+        android:id="@+id/audioTrack_list"
+        android:dividerHeight="2dp"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+    </de.kromke.andreas.unpopmusicplayerfree.MyListView>
+
+<!--
+
+    <Space
+        android:id="@+id/audioTrack_all"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="onSpacePicked"
+        />
+-->
+    <!-- This place holder element is used as "anchor" for the media controller which will
+         be positioned at its lower corner. As this overlaps the track
+         list it is essential to put it AFTER that in this xml file
+         to make sure that it does not hide anything and is logically
+         placed BELOW the list. -->
+
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_category_hide_or_show">
+
+        <CheckBoxPreference
+            android:key="prefShowTracknumber"
+            android:title="@string/pref_show_track_number_title"
+            android:defaultValue="false"
+            android:summary="@string/pref_show_track_number_summary" >
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:key="prefShowAlbumDuration"
+            android:title="@string/pref_show_album_duration_title"
+            android:defaultValue="false"
+            android:summary="@string/pref_show_album_duration_summary" >
+        </CheckBoxPreference>
+
+        <ListPreference
+            android:key="prefShowConductor"
+            android:title="@string/pref_show_conductor_title"
+            android:entries="@array/array_conductorMode"
+            android:summary="@string/pref_show_conductor_summary"
+            android:defaultValue="0"
+            android:entryValues="@array/array_conductorMode_values" >
+        </ListPreference>
+
+        <CheckBoxPreference
+            android:key="prefShowSubtitle"
+            android:title="@string/pref_show_subtitle_title"
+            android:defaultValue="false"
+            android:summary="@string/pref_show_subtitle_summary" >
+        </CheckBoxPreference>
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/pref_category_colours">
+
+        <ListPreference
+            android:key="prefTheme"
+            android:title="@string/pref_theme_title"
+            android:entries="@array/array_themes"
+            android:summary="@string/pref_theme_summary"
+            android:defaultValue="0"
+            android:entryValues="@array/array_themes_values" >
+        </ListPreference>
+
+        <ListPreference
+            android:key="prefGenderismNonsense"
+            android:title="@string/pref_genderism_nonsense_title"
+            android:entries="@array/array_genderismNonsenseMode"
+            android:summary="@string/pref_genderism_nonsense_summary"
+            android:defaultValue="0"
+            android:entryValues="@array/array_genderismNonsenseMode_values" >
+        </ListPreference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

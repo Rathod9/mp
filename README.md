@@ -3,6 +3,8 @@
 
 A plain music player especially for **classical music**, playing locally stored music files.
 
+As "pop music" is an abbreviation for "popular music", any other music obviously is "unpopular".
+
 ***
 
 <a href='https://play.google.com/store/apps/details?id=de.kromke.andreas.unpopmusicplayerfree'><img src='app/src/main/assets/public/google-play.png' alt='Get it on Google Play' height=45/></a>
@@ -10,12 +12,10 @@ A plain music player especially for **classical music**, playing locally stored 
 
 ***
 
-# Why "Unpopular"?
-All music player apps I found are meant for pop music only and deal with "Songs" and "Artists". This is not suitable for classical (baroque, renaissance, ...) music which is organised by composer, work, movements and performers.
+# Music Organisation
 
-"Pop music" is an abbreviation for "popular music". Thus any other music obviously is unpopular.
+Other music player apps are meant for pop music only and deal with "Songs" and "Artists". This is not suitable for classical (baroque, renaissance, ...) music which is organised by composer, work, movements and performers.
 
-# Music Organisation Examples
 Pop music:
 
 Artist | Album  | Song
@@ -72,11 +72,7 @@ The Unpopular Music Player is licensed according to GPLv3, see LICENSE file.
 
 # External Licenses
 
-##Jaudiotagger library
-
-Source: http://www.jthink.net/jaudiotagger/
-
-Copyright: paultaylor@jthink.net
-
+**Jaudiotagger library:**  
+Source: http://www.jthink.net/jaudiotagger/  
+Copyright: paultaylor@jthink.net  
 License: http://www.gnu.org/copyleft/lesser.html
-

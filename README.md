@@ -26,7 +26,7 @@ Smith | Heaven  | 1. Love you, babe
 Jones  | Freedom | 1. Babe, I'm free
  | | 2. Free the innrnatt
 
-Classical music:
+Classical music needs more metadata ("tags"), especially the *composer tag* and *grouping tag*, the latter is used to group the movements together:
 
 | Album  | Composer  | Work | Performer | Movement
 |------- |-----------| -----| --- | ---
@@ -36,8 +36,6 @@ Classical music:
 |                 | Hella Haydn  | Concerto No. 3 | Jean Water | 1. Allegro
 |                 |              |                |            | 2. Adagio
 
-
-So classical music needs more metadata ("tags"), especially the *composer tag* and *grouping tag*, the latter is used to group the movements together.
 
 For more information see the Google Play Store entry or the offline help text of the application.
 
@@ -67,3 +65,18 @@ For more information see the Google Play Store entry or the offline help text of
 # Permissions Needed
 * Read storage
 * Prevent phone from sleeping
+
+# License
+
+The Unpopular Music Player is licensed according to GPLv3, see LICENSE file.
+
+# External Licenses
+
+##Jaudiotagger library
+
+Source: http://www.jthink.net/jaudiotagger/
+
+Copyright: paultaylor@jthink.net
+
+License: http://www.gnu.org/copyleft/lesser.html
+

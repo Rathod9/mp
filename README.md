@@ -39,6 +39,11 @@ Classical music needs more metadata ("tags"), especially the *composer tag* and 
 
 For more information see the Google Play Store entry or the offline help text of the application.
 
+# Usual Versus Unpopular Music Player
+<img alt="No" src="app/src/main/assets/public/ss-no.png" width="320">
+<img alt="Yes" src="app/src/main/assets/public/ss-yes.png" width="320">
+
+
 # Supported
 
 * Starts with album list
